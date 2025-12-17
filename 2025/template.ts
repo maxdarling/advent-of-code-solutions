@@ -20,6 +20,8 @@ function part1(l) {
 }
 
 function main() {
-  const input = readFileSync("2025-dayN-input.txt", "utf-8");
+  const input = readFileSync("2025-dayN-input-ex.txt", "utf-8");
   console.log(part1(input));
 }
+
+main();
